@@ -5,16 +5,424 @@
           box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style: none;
+}
+
 /*-----------FONTS------------ */
 /*-----------COLORS------------ */
-/*-----------SIZE------------ */
+/*-----------FONT-SIZE------------ */
+/*-----------MARGIN-PADDING-SIZE------------ */
 header {
   background-color: #0b1523;
   font-family: "Raleway", sans-serif;
+  min-width: 765px;
 }
 
 li {
   color: white;
-  list-style: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  margin-right: 70px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.header-section-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-image-logo img {
+  width: 130px;
+  margin: 30px 0 20px 20px;
+}
+
+main {
+  min-width: 765px;
+  background-color: #0b1523;
+  color: white;
+}
+
+.main-section-prof {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -1px;
+}
+
+.main-section-image img {
+  width: 500px;
+  margin-top: 50px;
+}
+
+.main-section-h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-section-title h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3.5rem;
+  margin-top: 40px;
+  text-align: center;
+  width: 61%;
+  line-height: 4.8rem;
+}
+
+.main-section-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-section-description P {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  width: 69%;
+  padding-top: 35px;
+}
+
+.main--buton-start {
+  margin: 50px 0 50px 0;
+  width: 360px;
+  padding: 20px 0 20px 0;
+  border-radius: 30px;
+  font-size: 2.2rem;
+  background-color: #65e2d9;
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  outline: none;
+  cursor: pointer;
+}
+
+.cards-description-container {
+  background-color: #0b1523;
+  min-width: 766px;
+  color: white;
+  margin-top: -2px;
+}
+
+.cards-sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.acces-files-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.acces-files-sec img {
+  padding-top: 120px;
+}
+
+.acces-files-sec h3 {
+  font-size: 2.8rem;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 32px;
+}
+
+.acces-files-sec p {
+  font-size: 2.4rem;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  width: 70%;
+  padding-bottom: 30px;
+}
+
+.last-p-files {
+  margin-bottom: 50px;
+}
+
+.stay-productive {
+  background-color: #0b1523;
+  min-width: 766px;
+  margin-top: -2px;
+  color: white;
+}
+
+.stay-produc-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stay-produc-container img {
+  width: 580px;
+  margin-top: 100px;
+}
+
+.stay-produc-descrp h2 {
+  text-align: left;
+  font-size: 2.8rem;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+.stay-produc-descrp p {
+  font-size: 2.5rem;
+  margin-top: 30px;
+  text-align: left;
+  margin-left: 100px;
+  font-family: "Raleway", sans-serif;
+  width: 71%;
+}
+
+.stay-produc-descrp .stay-product-call {
+  margin-bottom: 180px;
+  font-size: 2.2rem;
+  color: #65e2d9;
+  border-bottom: 1px solid #65e2d9;
+  width: 28%;
+  line-height: 43px;
+  cursor: pointer;
+}
+
+.main-opinions {
+  background-color: #0b1523;
+  min-width: 767px;
+  margin-top: -2px;
+  color: white;
+}
+
+.main-opinions-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 200px;
+}
+
+.card-container p {
+  font-size: 2.2rem;
+  line-height: 35px;
+  margin: 45px 49px 10px 30px;
+}
+
+.card-container {
+  background-color: #181f2a;
+  width: 78%;
+  margin-bottom: 55px;
+  border-radius: 15px;
+}
+
+.card-container-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+  margin-bottom: 35px;
+}
+
+.card-container-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin-top: 29px;
+}
+
+.get-early-acces {
+  background-color: #181f2a;
+  min-width: 768px;
+  margin-top: -2px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.get-early-acces-container {
+  width: 90%;
+  background-color: #202a3c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+  margin-bottom: 130px;
+}
+
+.get-early-acces-container h4 {
+  font-size: 3.4rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin: 40px 0 30px 0;
+}
+
+.get-early-acces-container .early-acces-p {
+  font-size: 2.6rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  width: 78%;
+  line-height: 47px;
+}
+
+.form-control {
+  font-family: "Raleway", sans-serif;
+  width: 400px;
+  padding: 20px 0 20px 20px;
+  border-radius: 30px;
+  font-size: 1.4rem;
+  margin-top: 30px;
+}
+
+.from-button {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background-color: #65e2d9;
+  color: white;
+  width: 400px;
+  padding: 20px 0 20px 0;
+  border-radius: 30px;
+  margin-top: 30px;
+  outline: none;
+  margin-bottom: 80px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #181f2a;
+  min-width: 768px;
+  color: white;
+  margin-top: -2px;
+  font-family: "Open Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-footer {
+  width: 86%;
+}
+
+.footer-main-cont img {
+  width: 300px;
+  margin-bottom: 40px;
+}
+
+.footer-descrip-main p {
+  font-size: 2.5rem;
+}
+
+.tel-email-container {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.tel-email-container li {
+  font-size: 2.2rem;
+  line-height: 35px;
+}
+
+.about-container {
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+.about-container li {
+  font-size: 2.2rem;
+  line-height: 45px;
+}
+
+.contact-container {
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+.contact-container li {
+  font-size: 2.2rem;
+  line-height: 45px;
+}
+
+footer li {
+  display: block;
 }
 /*# sourceMappingURL=index.css.map */

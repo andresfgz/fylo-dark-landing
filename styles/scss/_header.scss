@@ -1,9 +1,25 @@
 header {
     background-color: $blueFooterBK;
     font-family: $raleway;
+    min-width: 765px;
 }
 
 li {
     color: $white;
-    list-style: none;
+    display: inline-block;
+    font-size: $size16;
+    margin-right: 70px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.header-section-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-image-logo img {
+    width: 130px;
+    margin: 30px 0 20px 20px;
 }

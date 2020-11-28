@@ -1,0 +1,52 @@
+footer {
+    background-color: $blueMain;
+    min-width: 768px;
+    color: $white;
+    margin-top: -2px;
+    font-family: $openSas;
+    display: flex;
+    justify-content: center;
+}
+.container-footer {
+    width: 86%;
+}
+
+.footer-main-cont img {
+    width: 300px;
+    margin-bottom: 40px;
+}
+.footer-descrip-main p {
+    font-size: 2.5rem;
+}
+
+.tel-email-container {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+.tel-email-container li{
+    font-size: 2.2rem;
+    line-height: 35px;
+}
+
+.about-container {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.about-container li {
+    font-size: 2.2rem;
+    line-height: 45px;
+}
+
+.contact-container{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.contact-container li{
+    font-size: 2.2rem;
+    line-height: 45px;
+}
+
+footer li{
+    display: block;
+}

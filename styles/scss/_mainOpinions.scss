@@ -1,0 +1,44 @@
+.main-opinions {
+    background-color: #0b1523;
+    min-width: 767px;
+    margin-top: -2px;
+    color: white;
+}
+.main-opinions-cards {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $openSas;
+    padding-bottom: 200px;
+}   
+
+
+.card-container p{
+    font-size: 2.2rem;
+    line-height: 35px;
+    margin: 45px 49px 10px 30px;
+}
+.card-container {
+    background-color: $blueMain
+    ;
+    width: 78%;
+    margin-bottom: 55px;
+    border-radius: 15px;
+}
+.card-container-image {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 35px;
+}
+
+.card-container-image img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-top: 29px;
+
+}
